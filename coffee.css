@@ -1,0 +1,417 @@
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.header-first{
+margin-top: 20px;
+    height:80px ;
+    background: #ffffff3f;
+    font-size: large;
+    display: flex;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+.header-first il{
+margin-right: 20px;
+cursor: pointer;
+}
+.header-first ul{
+ margin-left: 80px;
+ display: flex;
+ height: 30px;
+
+}
+.header-first il:hover{
+    border-bottom:2px solid black ;
+  
+}
+.header-first img{
+margin-left: 100px;
+}
+
+.btn-15,
+.btn-15 *,
+.btn-15 :after,
+.btn-15 :before,
+.btn-15:after,
+.btn-15:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-15 {
+  -webkit-tap-highlight-color: 
+transparent;
+  -webkit-appearance: button;
+  background-color: 
+#000;
+  background-image: none;
+  color: 
+#fff;
+  cursor: pointer;
+font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.3;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn-15:disabled {
+  cursor: default;
+}
+.btn-15:-moz-focusring {
+  outline: auto;
+}
+.btn-15 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-15 [hidden] {
+  display: none;
+}
+.btn-15 {
+
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+  z-index: 0;
+  height: 45px;
+  margin-left: 100px;
+}
+.btn-15 span {
+  mix-blend-mode: difference;
+}
+.btn-15:after,
+.btn-15:before {
+  --skew: 0.2;
+  background: 
+#fff;
+  content: "";
+  display: block;
+  height: 102%;
+  left: calc(-50% - 50% * var(--skew));
+  pointer-events: none;
+  position: absolute;
+  top: -104%;
+  transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
+  transition: transform 0.2s ease;
+  width: 100%;
+}
+.btn-15:after {
+  --progress: 0%;
+  left: calc(50% + 50% * var(--skew));
+  top: 102%;
+  z-index: -1;
+}
+.btn-15:hover:before {
+  --progress: 100%;
+}
+.btn-15:hover:after {
+  --progress: -102%;
+}
+.location{
+  height: 70px;
+  background: #d7d4d470;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+  box-shadow: 1px 1px 6px gray;
+  flex-direction: row;
+
+
+}
+.text{
+justify-self: self-start;
+}
+
+
+
+.location p{
+line-height: 15px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 20px;
+font-weight: 500;
+font-size:18px;margin-top: 10px;
+
+
+}
+.change{
+width: 150px;
+position: absolute;
+left: 1150px;
+top: 145px;
+font-size: larger;
+font-weight: 700;
+
+}
+.Image{
+  background-image: url(pexels-pixabay-433145.jpg); 
+  background-position: center;
+  background-size:cover;
+  height: 250px;
+  width: 98%;
+  margin: auto;
+  margin-top: 30px;
+}
+nav a{
+color: #000;
+text-decoration: none;
+}
+nav{
+  width: 90%;
+  background: #ffffff;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+
+
+}
+.item{
+  margin-left:40px ;
+}
+.item ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item il{
+  margin-right: 20px;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+.item il:hover{
+border-bottom:3px solid gray;
+}
+.mostp{
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mostp div{
+  height:120px;
+  width: 450px;
+border: 1px solid rgba(128, 128, 128, 0.39);
+  margin: 20px;
+  border-radius: 5px;
+  
+}
+.mostp div:hover{
+  box-shadow: 2px 2px 3px gray;
+  transition: all o.6s linear;
+  
+}
+
+#div{
+  height:120px;
+  width: 450px;
+border: 1px solid rgba(128, 128, 128, 0.39);
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+#div:hover{
+box-shadow: 2px 2px 3px gray;
+
+}
+#div p ,b{
+  position: relative;
+top: 8px;
+left: 20px;
+font-size: medium;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mostp p ,b{
+  position: relative;
+top: 8px;
+left: 20px;
+font-size: medium;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+  margin-top: 30px;
+  height: 350px;
+  width: 100%;
+  background: #6262629e;
+  display: flex;
+}
+footer img{
+  height: 80px;
+  width: 250px;
+  position: relative;
+  top: 150px;
+left: 20px;
+}
+.line{
+height: 90%;
+width: 2px;
+background: #000;
+margin-top: auto;
+margin-bottom: auto;
+position: relative;
+left:80px ;
+}
+.nav {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.nav ul{
+display: grid;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+margin-left: 80px;
+
+}
+.nav il{
+  margin: 5px;
+  cursor: pointer;
+}
+.nav il:hover{
+  
+    border-bottom:2px solid black ;
+}
+.items a{
+  color: #000;
+  text-decoration: none;
+}
+.items ul{
+display: flex;
+flex-direction: column;
+position: relative;
+left: 80px;
+margin-top: auto;
+margin-bottom: auto;
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+top: 40px;
+
+}
+.items a{
+margin: 5px;
+
+}
+.items h3{
+  position: relative;
+left: 90px;
+top: 40px;
+}
+.branch{
+height: 350px;
+  width: 200px;
+  position: absolute;
+  left: 70%;
+}
+.social{
+
+height: 350px;
+position: absolute;
+left: 90%;
+display: flex;
+flex-direction: column;
+font-size: x-large;
+color: #000;
+justify-content: center;
+
+}
+.social i{
+  margin: 10px;
+}
+.social i:hover{
+transform: scale(1.3);
+color: #fff;
+}
+.social a{
+color: #000;
+text-decoration: none;
+}
+.all{
+
+  width: 80%;
+  height: 1300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+
+
+}
+
+.all h3{
+
+position: relative;
+display: block;
+
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.59);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.popup-content h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  margin-bottom: 5px;
+}
+
+#close-btn ,.close-btn {
+  background-color:transparent;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border:1px solid gray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#close-btn:hover {
+  background-color:gray;
+  transition: all 0.3s linear;
+}
+.close-btn:hover {
+  background-color:gray;
+  transition: all 0.3s linear;
+}
+.same{
+position: relative;
+right:180px ;
+
+
+
+}
