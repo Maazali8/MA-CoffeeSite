@@ -144,7 +144,7 @@ font-size:18px;margin-top: 10px;
 .change{
 width: 150px;
 position: absolute;
-left: 1050px;
+left: 1150px;
 top: 145px;
 font-size: larger;
 font-weight: 700;
@@ -214,7 +214,7 @@ border: 1px solid rgba(128, 128, 128, 0.39);
 }
 
 #div{
-  height:120px;
+  height:130px;
   width: 450px;
 border: 1px solid rgba(128, 128, 128, 0.39);
   margin: 20px;
