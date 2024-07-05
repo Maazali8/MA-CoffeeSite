@@ -144,11 +144,13 @@ font-size:18px;margin-top: 10px;
 .change{
 width: 150px;
 position: absolute;
-left: 1150px;
+left: 1080px;
 top: 145px;
 font-size: larger;
 font-weight: 700;
-
+}
+.change:hover{
+  color:gray;
 }
 .Image{
   background-image: url(pexels-pixabay-433145.jpg); 
