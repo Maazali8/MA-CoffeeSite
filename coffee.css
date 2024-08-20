@@ -148,11 +148,15 @@ left: 1150px;
 top: 145px;
 font-size: larger;
 font-weight: 700;
+cursor: pointer;
 
 }
+.change:hover{
+  color: gray;
+}
 .Image{
-  background-image: url(pexels-pixabay-433145.jpg); 
-  background-position: center;
+  background-image: url(pexels-pixabay-433145.jpg);
+  background-position:center;
   background-size:cover;
   height: 250px;
   width: 98%;
@@ -214,7 +218,7 @@ border: 1px solid rgba(128, 128, 128, 0.39);
 }
 
 #div{
-  height:120px;
+  height:130px;
   width: 450px;
 border: 1px solid rgba(128, 128, 128, 0.39);
   margin: 20px;
